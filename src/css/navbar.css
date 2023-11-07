@@ -1,0 +1,23 @@
+.navbar_brand-top {
+    display: flex;
+    align-items:center;
+    border-bottom: solid 1px ;
+}
+
+.navbar-brand { 
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar_brand-title {
+    font-size: 1.5rem;
+    letter-spacing: .15rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar_brand-subtitle {
+    font-size: .6rem;
+    margin: .3rem 0;
+    padding: 0;
+}
