@@ -1,3 +1,15 @@
+.navbar {
+    position: relative;
+    height: 90px;
+}
+
+.navbar-nav {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    gap: 12px;
+}
+
 .navbar_brand-top {
     display: flex;
     align-items:center;
@@ -20,4 +32,20 @@
     font-size: .6rem;
     margin: .3rem 0;
     padding: 0;
+}
+
+
+.dropdown-menu-new {
+    display: flex;
+    align-items: center;
+}
+
+#suspended-menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top:90px;
+    left: 0;
+    background-color: #eaeaea;
+    box-shadow: 0px 5px 10px grey;
 }
