@@ -1,0 +1,14 @@
+#return-top {
+    background-color: #FA7F08;
+    padding: 10px;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    box-shadow: 0 0 10px #383838;
+    align-items: center;
+}
+
+#return-top a {
+    color: #fefefe;
+}

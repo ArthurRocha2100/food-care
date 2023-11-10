@@ -2,7 +2,11 @@
 header {
     background-color: #FA7F08;
     padding: 0 50px;
-    box-shadow: 0 5px 10px #989898 ;
+    box-shadow: 0 1px 10px #383838 ;
+    position: sticky;
+    width: 100%;
+    top:0;
+    z-index: 100;
 }
 
 .navbar {
@@ -53,7 +57,8 @@ header {
 .dropdown-menu-orange {
     background-color: #FA7F08;
     border: none;
-    box-shadow: 0 5px 10px #fefefe
+    box-shadow: 0 0px 10px #fefefe;
+    padding: 10px;
 }
 
 .dropdown-item {
@@ -62,6 +67,7 @@ header {
 
 .dropdown-item:hover {
     background: #f19b44;
+    cursor: pointer;
 }
 
 .dropdown-toggle {
