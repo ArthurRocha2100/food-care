@@ -2,21 +2,29 @@
     background-color: #FA7F08;
     border-radius: 5px 50px 5px 50px;
     box-shadow: 5px 5px 10px rgb(211, 211, 211);
-    width: 100%;
     text-align: justify;
 }
 
 
 .allergy-food-img{
     box-shadow: 5px 5px 10px rgb(211, 211, 211);
+    flex: 1;
+    object-fit: fill;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 992px) {
 
     .what_is-container {
         width: 100%;
     }
     .what_is_container-title {
-        align-items: center;
+        text-align: center;
     }
 
+}
+
+@media (max-width: 768px) {
+    .what_is-container {
+        width: 100%;
+    }
 }
