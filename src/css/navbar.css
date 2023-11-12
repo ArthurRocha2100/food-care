@@ -3,7 +3,6 @@ header {
     background-color: #FA7F08;
     padding: 0 50px;
     box-shadow: 0 1px 10px #383838 ;
-    position: sticky;
     width: 100%;
     top:0;
     z-index: 100;

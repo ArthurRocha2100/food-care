@@ -1,88 +1,144 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Care | Principal</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/css/about.css">
-    <link rel="stylesheet" href="src/css/navbar.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Care | Principal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/about.css">
+  <link rel="stylesheet" href="src/css/navbar.css">
+  <link rel="stylesheet" href="src/css/what-is.css">
 
 </head>
+
 <body>
 
   <div id="return-top">
-    <a href="#navbar">
-      <span class="material-symbols-outlined">
-        arrow_upward
-      </span>
-    </a>
+    <div class="return-container d-flex rounded-pill">
+      <p class="p-0 m-0 text-light">Retornar</p>
+      <a class="text-light" href="#navbar">
+        <span class="material-symbols-outlined">arrow_upward</span>
+      </a>
+    </div>
   </div>
 
   <header>
-      <nav id="navbar" class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            
-              <div class="navbar-brand">
-                <div class="navbar_brand-top">
-                  <p class="navbar_brand-title">Food Care</p>
-                  <span class=" logo-plant material-symbols-outlined">psychiatry</span>
-                </div>
-                  <p class=" navbar_brand-subtitle">Eating must be a lovely experience</p>
-              </div>
+    <nav id="navbar" class="navbar navbar-expand-lg">
+      <div class="container-fluid">
 
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              
-              <ul class="navbar-nav mb-2 mb-lg-0">
-
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">Sobre</a>
-                </li>
-                
-                <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="#mission">Missão</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="#">Contato</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <p class=" b-none text-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    Principais alergias limentares
-                  </p>
-                  <ul class="dropdown-menu-orange dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
-
-              </ul>
-              
-            </div>
+        <div class="navbar-brand">
+          <div class="navbar_brand-top">
+            <p class="navbar_brand-title">Food Care</p>
+            <span class=" logo-plant material-symbols-outlined">psychiatry</span>
           </div>
-      </nav>
+          <p class=" navbar_brand-subtitle">Eating must be a lovely experience</p>
+        </div>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav mb-2 mb-lg-0">
+
+
+            <li class="nav-item dropdown">
+              <p class=" b-none text-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Alergia alimentar
+              </p>
+              <ul class="dropdown-menu-orange dropdown-menu">
+                <li><a class="dropdown-item" href="#">O que é ?</a></li>
+                <li><a class="dropdown-item" href="#">Manifestação</a></li>
+                <li><a class="dropdown-item" href="#">Diagnóstico</a></li>
+                <li><a class="dropdown-item" href="#">Tratamento</a></li>
+                <li><a class="dropdown-item" href="#">Prevenção</a></li>
+                <li><a class="dropdown-item" href="#">Grosário</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <p class=" b-none text-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Receitas
+              </p>
+              <ul class="dropdown-menu-orange dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Sobre</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#mission">Missão</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Contato</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
   </header>
 
   <main>
 
-    <section id="about">
+    <section id="what-is" class="p-5 d-md-flex align-middle">
+
+      <img  class="allergy-food-img w-25 d-md-block d-sm-none rounded-2 " src="src/img/visao-de-alergenos-comumente-encontrados-em-alimentos.jpg" alt="Imagem mais comuns alimentos alergênicos">
+
+      <div class="what_is-container ms-md-4 sm-mx-auto p-5">
+        <h2 class="what_is_container-title text-light">O que é ?</h2>
+        <p class="text-light">A alergia alimentar é uma reação adversa a um determinado alimento, envolvendo um mecanismo imunológico com apresentação clínica muito variável, com sintomas que podem surgir na pele, no sistema gastrointestinal e respiratório. As reações podem ser leves, como simples coceira nos lábios, até reações graves que podem comprometer vários órgãos. A alergia alimentar resulta de uma resposta exagerada do organismo a uma determinada substância presente nos alimentos.
+        </p>
+        <p>
+           <a class="text-dark text-decoration-none" href="https://asbai.org.br/alergia-alimentar-4/" target="_blank" >Fonte: Associação Brasileira de Alergia e Imunologia </a>
+        </p>
+      </div>
+      
+
 
     </section>
-    
-    <section id="mission">
+
+    <section id="about" class="p-3 w-100">
+
+      <div class="about-container w-100 p-5 bg-light">
+        <h2 class="about-title text-center">Sobre</h2>
+        <p class="text-center">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+          ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+          ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+          ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+          ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
+        </p>
+        <p></p>
+
+
+        
+      </div>
+    </section>
+
+    <section id="mission" class="bg-primary">
 
     </section>
   </main>
   <script src="src/js/navnar.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>
