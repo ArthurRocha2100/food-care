@@ -16,6 +16,7 @@
 
     .what_is-container {
         width: 100%;
+        
     }
     .what_is_container-title {
         text-align: center;
@@ -24,7 +25,13 @@
 }
 
 @media (max-width: 768px) {
+
+    #what-is {
+        background-color: #FA7F08;
+    }
     .what_is-container {
         width: 100%;
+        background-color: #fefefe;
+        box-shadow: none;
     }
 }
