@@ -1,0 +1,15 @@
+#diagnosis{
+    background-color: #FA7F08;
+}
+
+.diagnosis-container {
+    background-color: #fafafa;
+    border-radius: 50px 5px 50px 5px;
+    box-shadow: 5px 5px 10px rgb(92, 91, 91);
+    flex: 1;
+    transition: all 1s;
+}
+
+.diagnosis-container-paragraph {
+    text-align: justify;
+}
