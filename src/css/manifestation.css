@@ -1,7 +1,13 @@
 .manifestation-container {
     background-color: #FA7F08;
     border-radius: 50px 5px 50px 5px;
-    flex: 1 ;
+    box-shadow: 5px 5px 10px rgb(211, 211, 211);
+    flex: 1;
+    transition: all 1s;
+}
+
+.manifestation-container:hover {
+    transform: scale(1.01);
 }
 
 .manifestation_container-img {
@@ -9,3 +15,8 @@
     flex: 1;
     object-fit: fill;
 }
+
+.manifestation_container-paragraph {
+    text-align: justify;
+}
+

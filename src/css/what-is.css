@@ -3,6 +3,7 @@
     border-radius: 5px 50px 5px 50px;
     box-shadow: 5px 5px 10px rgb(211, 211, 211);
     text-align: justify;
+
 }
 
 
@@ -12,16 +13,29 @@
     object-fit: fill;
 }
 
+.what_is_container-title {
+    color: #fafafa;
+}
+
+.what_is_container-paragraph {
+    color: #fafafa
+}
+
 @media (max-width: 992px) {
 
     .what_is-container {
         width: 100%;
         
     }
+
     .what_is_container-title {
         text-align: center;
+        color: #000;
     }
 
+    .what_is_container-paragraph {
+        color: #000;
+    }
 }
 
 @media (max-width: 768px) {
