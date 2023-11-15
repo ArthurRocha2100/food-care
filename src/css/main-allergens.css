@@ -1,0 +1,36 @@
+.main-allergens {
+    background-color: orange;
+}
+
+.main_allergens-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: space-around;
+    padding: 30px;
+    align-content: start;
+}
+
+.main_allergens-item {
+    width: calc(33% - 40px);
+    text-align: center;
+    gap:10px;
+    padding: 15px;
+}
+
+.main_allergens-item img {
+    object-fit: fill;
+    width: 90px;
+}
+
+@media (max-width: 972px) {
+    .main_allergens-item {
+        display: block;
+        text-align: center;
+    }
+
+    .main_allergens-item img {
+        width: 40px;
+    }
+
+}

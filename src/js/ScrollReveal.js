@@ -8,6 +8,9 @@ function revealX() {
     sr.reveal('.manifestation_container-img', {origin:'bottom', reset:true});
     sr.reveal('.diagnosis-container', {origin:'bottom', reset:true});
     sr.reveal('.treatment-container', {origin:'bottom', reset:true});
+    sr.reveal('.prevention-container', {origin:'bottom', reset:true});
+    sr.reveal('.main_allergens-item', {origin:'left', reset:true});
+
 
     
 }
