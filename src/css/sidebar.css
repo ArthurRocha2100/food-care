@@ -1,15 +1,10 @@
 .sidebar {
     background-color: orange;
+    height: 100vh;
 }
 
 .bg-orange {
     background-color: orange;
-}
-
-.teste {
-    height:100vh;
-    width: 100%;
-    background-color: red;
 }
 
 .navbar_brand-top {
@@ -24,6 +19,10 @@
     margin: 0;
     padding: 0;
     color: #fefefe;
+}
+
+.container-result {
+    min-height: 100vh;
 }
 
 .logo-plant {
