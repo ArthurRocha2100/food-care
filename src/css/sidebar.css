@@ -1,0 +1,38 @@
+.sidebar {
+    background-color: orange;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.teste {
+    height:100vh;
+    width: 100%;
+    background-color: red;
+}
+
+.navbar_brand-top {
+    display: flex;
+    align-items:center;
+    border-bottom: solid 1px #fefefe;;
+}
+
+.navbar_brand-title {
+    font-size: 1.5rem;
+    letter-spacing: .15rem;
+    margin: 0;
+    padding: 0;
+    color: #fefefe;
+}
+
+.logo-plant {
+    color: #fefefe;
+ }
+
+.navbar_brand-subtitle {
+    font-size: .6rem;
+    margin: .3rem 0;
+    padding: 0;
+    color: #fefefe;
+}

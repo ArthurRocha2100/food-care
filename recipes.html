@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Care | Receitas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="src/css/sidebar.css">
+</head>
+
+<body>
+
+    <main class="d-flex">
+
+        <section class="sidebar offcanvas-start w-25 d-none d-md-block " >
+
+            <div class="navbar-brand p-4 border-bottom">
+                <div class="navbar_brand-top">
+                  <p class="navbar_brand-title">Food Care</p>
+                  <span class=" logo-plant material-symbols-outlined">psychiatry</span>
+                </div>
+                <p class=" navbar_brand-subtitle">Eating must be a lovely experience</p>
+            </div>
+
+            <div>
+
+                <details>
+                    <summary class="text-light ps-2 border-bottom">Categorias</summary>
+                    <ul class="bg-orange w-100">
+                        <li class="list-group-item">
+                            <input id="lactose-allergyan" class="form-check-input" type="checkbox">   
+                            <label class="form-check-label text-light  ms-2" for="lactose-allergyan">Alérgico a Lactose</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input id="gluten-allergyan" class="form-check-input" type="checkbox">   
+                            <label class="form-check-label text-light  ms-2" for="gluten-allergyan">Alérgico a Glúten</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input id="soy-allergyan" class="form-check-input" type="checkbox">   
+                            <label class="form-check-label text-light  ms-2" for="soy-allergyan">Alérgico a Soja</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input id="egg-allergyan" class="form-check-input" type="checkbox">   
+                            <label class="form-check-label text-light  ms-2" for="egg-allergyan">Alérgico a Ovo</label>
+                        </li>
+                    </ul>
+                </details>
+
+            </div>
+        
+        </section>
+        
+        <button class="btn btn-primary d-block d-md-none position-fixed" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">|||</button>
+
+        <div class="offcanvas offcanvas-start position-absolut bg-orange" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header  border-bottom">
+
+                <div class="navbar-brand">
+                    <div class="navbar_brand-top">
+                      <p class="navbar_brand-title">Food Care</p>
+                      <span class=" logo-plant material-symbols-outlined">psychiatry</span>
+                    </div>
+                    <p class=" navbar_brand-subtitle">Eating must be a lovely experience</p>
+                </div>
+
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div>
+                <details>
+                    <summary class="text-light ps-2 border-bottom">Categorias</summary>
+                    <ul class="bg-orange w-100">
+                        <li class="list-group-item">
+                            <input id="lactose-allergyan" class="form-check-input" type="checkbox">   
+                            <label class="form-check-label text-light  ms-2" for="lactose-allergyan">Alérgico a Lactose</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input id="gluten-allergyan" class="form-check-input" type="checkbox">   
+                            <label class="form-check-label text-light  ms-2" for="gluten-allergyan">Alérgico a Glúten</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input id="soy-allergyan" class="form-check-input" type="checkbox">   
+                            <label class="form-check-label text-light  ms-2" for="soy-allergyan">Alérgico a Soja</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input id="egg-allergyan" class="form-check-input" type="checkbox">   
+                            <label class="form-check-label text-light  ms-2" for="egg-allergyan">Alérgico a Ovo</label>
+                        </li>
+                    </ul>
+                </details>
+
+            </div>
+        </div>
+
+
+        <div class="d-block w-100">
+            <section>
+                <h1 class="text-center">Receitas</h1>
+            </section>
+
+            <section class="teste">
+
+            </section>
+        </div>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+</body>
