@@ -30,26 +30,15 @@
             <div>
                 <details>
                     <summary class="text-light ps-2 border-bottom">Categorias</summary>
-                    <ul class="bg-orange w-100">
-                        <li class="list-group-item">
-                            <input id="lactose-allergyan" class="form-check-input" type="checkbox">   
-                            <label class="form-check-label text-light  ms-2" for="lactose-allergyan">Alérgico a Lactose</label>
-                        </li>
-                        <li class="list-group-item">
-                            <input id="gluten-allergyan" class="form-check-input" type="checkbox">   
-                            <label class="form-check-label text-light  ms-2" for="gluten-allergyan">Alérgico a Glúten</label>
-                        </li>
-                        <li class="list-group-item">
-                            <input id="soy-allergyan" class="form-check-input" type="checkbox">   
-                            <label class="form-check-label text-light  ms-2" for="soy-allergyan">Alérgico a Soja</label>
-                        </li>
-                        <li class="list-group-item">
-                            <input id="egg-allergyan" class="form-check-input" type="checkbox">   
-                            <label class="form-check-label text-light  ms-2" for="egg-allergyan">Alérgico a Ovo</label>
-                        </li>
-                    </ul>
+                            <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                <button type="button" class="btn btn-primary" onclick="fetchAPI2('gluten-free')">Livre de Gluten</button>
+                                <button type="button" class="btn btn-primary" onclick="fetchAPI2('sugar-free')">Livre de Açúcar</button>
+                                <button type="button" class="btn btn-primary" onclick="fetchAPI2('vegan')">Veganos</button>
+                                <button type="button" class="btn btn-primary" onclick="fetchAPI2('vegetarian')">Vegetarianos</button>
+                                <button type="button" class="btn btn-primary" onclick="fetchAPI2('no-alcohol-drinks')">Drinks sem alcool</button>
+                                <button type="button" class="btn btn-primary" onclick="fetchAPI2('sugar-free-drinks')">Drinks sem açucar</button>
+                              </div>          
                 </details>
-
             </div>
         
         </section>

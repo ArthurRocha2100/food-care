@@ -20,6 +20,14 @@ async function fetchAPI(q) {
     console.log(data);
 }
 
+async function fetchAPI2(string){
+    const baseURL = `https://api.edamam.com/api/recipes/v2?type=public&q=${string}&app_id=${APP_ID}&app_key=${APP_KEY}&random=true&to=18&from=0`;
+    const response = await fetch(baseURL);
+    const data = await response.json();
+    generateHTML(data.hits);
+    console.log(data);
+}
+
 function generateHTML(results) {
     let generatedHTML = '';
 

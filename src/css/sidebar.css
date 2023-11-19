@@ -35,3 +35,13 @@
     padding: 0;
     color: #fefefe;
 }
+button {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 30px;
+    scale: 95%;
+    width: auto;
+}
+.btn-group-vertical {
+    width: 80%;
+}
