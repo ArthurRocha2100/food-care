@@ -1,6 +1,7 @@
 .sidebar {
     background-color: orange;
-    height: 100vh;
+    min-height: 100vh;
+    width: 20%;
 }
 
 .bg-orange {
@@ -20,6 +21,14 @@
     padding: 0;
     color: #fefefe;
     font-weight: bold;
+}
+
+
+.container-serch {
+    position: absolute;
+    min-height: 100vh;
+    width: 80%;
+    right: 0;
 }
 
 .container-result {
@@ -52,4 +61,11 @@ button {
 }
 .btn-group-vertical {
     width: 80%;
+}
+
+@media (max-width: 991px) {
+    .container-serch {
+        width: 100%;
+        position: static;
+    }
 }

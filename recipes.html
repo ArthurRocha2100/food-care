@@ -14,9 +14,9 @@
 
 <body>
 
-    <main class="d-flex">
+    <main class="w-100 m-0">
 
-        <section class="sidebar offcanvas-start d-none d-md-block" >
+        <section class="sidebar top-0 position-fixed offcanvas-start d-none d-md-block" >
 
             <div class="navbar-brand p-4 border-bottom"> <a class="text-decoration-none" href="index.html">
                 <div class="navbar_brand-top">
@@ -44,7 +44,7 @@
         </section>
         
         <button class="btn btn-primary d-block d-md-none position-fixed" type="button" data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">|||</button>
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">></button>
 
         <div class=" offcanvas offcanvas-start position-absolut bg-orange" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
             aria-labelledby="offcanvasWithBothOptionsLabel">
@@ -64,40 +64,29 @@
             <div>
                 <details>
                     <summary class="text-light ps-2 border-bottom">Categorias</summary>
-                    <ul class="bg-orange w-100">
-                        <li class="list-group-item">
-                            <input id="lactose-allergyan" class="form-check-input" type="checkbox">   
-                            <label class="form-check-label text-light  ms-2" for="lactose-allergyan">Alérgico a Lactose</label>
-                        </li>
-                        <li class="list-group-item">
-                            <input id="gluten-allergyan" class="form-check-input" type="checkbox">   
-                            <label class="form-check-label text-light  ms-2" for="gluten-allergyan">Alérgico a Glúten</label>
-                        </li>
-                        <li class="list-group-item">
-                            <input id="soy-allergyan" class="form-check-input" type="checkbox">   
-                            <label class="form-check-label text-light  ms-2" for="soy-allergyan">Alérgico a Soja</label>
-                        </li>
-                        <li class="list-group-item">
-                            <input id="egg-allergyan" class="form-check-input" type="checkbox">   
-                            <label class="form-check-label text-light  ms-2" for="egg-allergyan">Alérgico a Ovo</label>
-                        </li>
-                    </ul>
+                            <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                <button type="button" class="btn btn-primary" onclick="fetchAPI2('gluten-free')">Livre de Gluten</button>
+                                <button type="button" class="btn btn-primary" onclick="fetchAPI2('sugar-free')">Livre de Açúcar</button>
+                                <button type="button" class="btn btn-primary" onclick="fetchAPI2('vegan')">Veganos</button>
+                                <button type="button" class="btn btn-primary" onclick="fetchAPI2('vegetarian')">Vegetarianos</button>
+                                <button type="button" class="btn btn-primary" onclick="fetchAPI2('no-alcohol-drinks')">Drinks sem alcool</button>
+                                <button type="button" class="btn btn-primary" onclick="fetchAPI2('sugar-free-drinks')">Drinks sem açucar</button>
+                              </div>          
                 </details>
-
             </div>
         </div>
 
 
-        <div class="container d-block w-100 px-3 bg-primary p-2">
-            <section>
-                <h1 class="text-center mt-4 text-light">Receitas</h1>
+        <div class="container-serch me-0 d-block bg-primary">
+            <section class="w-100">
+                <h1 class="text-center text-light">Receitas</h1>
 
                 <form class="text-center mb-4">
-                    <input  class="rounded-3 border-none p-2" type="text" placeholder="Digite aqui no nome da receita...">
+                    <input  class="rounded-3 border-none p-2 w-50" type="text" placeholder="Digite aqui no nome da receita...">
                 </form>
 
 
-                <div id="container-result" class="row justify-content-evenly row-cols-md-4 row-cols-sm-3 row-cols-1 gap-5 align-items-start">
+                <div id="container-result" class="w-75 mx-auto row justify-content-evenly row-cols-md-4 row-cols-sm-3 row-cols-1 gap-5 align-items-start">
                 </div>
 
             </section>
