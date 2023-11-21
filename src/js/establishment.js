@@ -8,10 +8,11 @@ const botaoIncluit = document.getElementById('new');
 const modal = document.querySelector('.modal-container');
 const tbody = document.querySelector('tbody');
 
-Parse.initialize('Xyn80s19MQDal0BPdGewNLItdBRGIBv48ZnxBeBi','qx094vOMLI6M68zYfm8vWLoAOtXy9JUcKpDVrJgz');
+const API_ID = 'HH3Vf5HoRpqmZWOAKeiOFFogqRF9ChBf3A1t8ueU'
+const API_JS_KEY = 'UtzG0cKaLjZD7zVajXV60J5aiXMS0xx7EQRBiofg'
+
+Parse.initialize(API_ID,API_JS_KEY);
 Parse.serverURL = 'https://parseapi.back4app.com/';
-
-
 
 const parseQuery = new Parse.Query('Establishment');
 
@@ -30,6 +31,7 @@ botaoSalvar.onclick = async e => {
 
   if (id !== undefined) {
     let establishmentList = await parseQuery.find().then();
+
     let establishment = new Parse.Object('Establishment');
 
     Es.set('objectId', listaProduto[id].id);
@@ -52,6 +54,7 @@ botaoSalvar.onclick = async e => {
 }
 
 async function establishmentAddition() {
+  
   let newEstablishment = new Parse.Object('Establishment');
   
   newEstablishment.set('establishment', establishmentName.value);
