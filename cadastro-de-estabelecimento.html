@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+    <link rel="stylesheet" href="src/css/establishment.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Food Care | Estabelecimentos</title>
+</head>
+
+<body>
+
+
+
+    <main>
+
+        <div class="container">
+
+            <div class="header">
+                <span>Cadastro de produtos</span>
+            </div>
+
+            <button id="btnVoltar" onclick="window.location.href='../../index.html'">Voltar</button>
+            <button onclick="openModal()" id="new">Incluir</i></button>
+
+            <div class="divTable">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Estabelecimento</th>
+                            <th>Endereço</th>
+                            <th class="acao">Editar</th>
+                            <th class="acao">Excluir</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="modal-container">
+                <div class="modal">
+                    <form>
+
+                        <h2>Estabelecimento</h2>
+                        <div class="container-produto">
+                            <label for="m-establishment">establecimento</label>
+                            <input id="m-establishment" type="text" placeholder="Digite o nome do estabelecimento" required />
+
+                            <label for="m-public-place">Logradouto</label>
+                            <input id="m-public-place" type="text" placeholder="Digite o endereço onde se localiza o estabelecimento" />
+
+                            <label for="m-image-establishment">Imágem do estabelecimento*</label>
+                            <input id="m-image-establishment" type="text" placeholder="Insita a URL da imagem do establecimento"/>
+
+                            <label for="m-contact">Contato*</label>
+                            <input id="m-contact" type="text" placeholder="digite o contato do estabelecimento">
+
+                            <label for="m-web-site">Web site</label>
+                            <input id="m-web-site" type="text" placeholder="Insita a rede social do estabelecimento (opcional)" >
+                        </div>
+
+                        <p>* Campo obrigatório </p>
+
+                        <button id="btnSalvar">Salvar</button>
+                    </form>
+                </div>
+            </div>
+    </main>
+
+
+
+    <script src="src/js/establishment.js"></script>
+</body>
+
+</html>
