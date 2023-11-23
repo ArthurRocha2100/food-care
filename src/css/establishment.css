@@ -18,7 +18,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to left, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../../src/img/bg.jpeg);
+    background: #FA7F08;
     background-size: cover;
 }
 
@@ -27,10 +27,11 @@ button {
 }
 
 .container {
-    background: #fefefe;
+    background: orange;
     border-radius: 10px;
     height: 80%;
     flex: 1;
+    box-shadow: 5px 5px 20px #202020;
 }
 
 .header {
@@ -76,7 +77,7 @@ button {
 }
 
 .divTable::-webkit-scrollbar {
-  background-color: whitesmoke; 
+  background-color: #fafafa; 
   width: 12px;
 }
 
@@ -93,11 +94,11 @@ table {
 }
 
 thead {
-  background-color: whitesmoke;
+  background-color: #FA7F08;
 }
 
 tr {
-  border-bottom: 1px solid rgb(238, 235, 235)!important;
+  border-bottom: 1px solid #000 !important;
 }
 
 tbody tr td {
@@ -146,6 +147,15 @@ tbody tr td.acao {
   background-color: white;
   border-radius: 10px;
   width: 50%;
+}
+
+
+.m-establishment-img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 20px 0px;
+  border-radius: 10px;
 }
 
 .modal label {

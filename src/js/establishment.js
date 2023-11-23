@@ -7,6 +7,7 @@ const botaoSalvar = document.getElementById('btnSalvar');
 const botaoIncluit = document.getElementById('new');
 const modal = document.querySelector('.modal-container');
 const tbody = document.querySelector('tbody');
+const establishmentImg = document.querySelector('m-establishment-img');
 
 const API_ID = 'HH3Vf5HoRpqmZWOAKeiOFFogqRF9ChBf3A1t8ueU'
 const API_JS_KEY = 'UtzG0cKaLjZD7zVajXV60J5aiXMS0xx7EQRBiofg'
@@ -111,7 +112,7 @@ function editItem(i) {
 
 async function deleteItem(id) {
   let listaestablishment = await parseQuery.find().then();
-  let establishment = new Parse.Object('Product');
+  let establishment = new Parse.Object('Establishment');
 
   establishment.set('objectId', listaestablishment[id].id);
 
