@@ -1,11 +1,11 @@
 .sidebar {
-    background-color: orange;
+    background-color: #74c963de;
     min-height: 100vh;
     width: 20%;
 }
 
 .bg-orange {
-    background-color: orange;
+    background-color: #74c963de;
 }
 
 .navbar_brand-top {

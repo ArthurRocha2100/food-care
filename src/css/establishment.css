@@ -48,7 +48,7 @@ button {
 }
 
 #btnVoltar {
-  background-color: rgb(57, 57, 226);
+  background-color: rgb(6, 6, 151);
   border: none;
   border-radius: 5px;
   color: #fefefe;
@@ -59,7 +59,7 @@ button {
 
 
 #new {
-  background-color: rgb(9, 215, 57);
+  background-color: rgb(8, 158, 43);
   border: none;
   border-radius: 5px;
   color: #fefefe;
@@ -165,7 +165,7 @@ tbody tr td.acao {
 }
 
 .modal button {
-  background-color: rgb(57, 57, 226);
+  background-color: rgb(6, 6, 151);
   border: none;
   border-radius: 20px; 
   color: #fefefe;

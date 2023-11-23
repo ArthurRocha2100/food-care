@@ -1,6 +1,6 @@
 
 header {
-    background-color: #FA7F08;
+    background-color: #74c963de;
     padding: 0 50px;
     box-shadow: 0 1px 10px #383838 ;
     width: 100%;
@@ -55,7 +55,7 @@ header {
 }
 
 .dropdown-menu-orange {
-    background-color: #FA7F08;
+    background-color: #74c963de;
     border: none;
     box-shadow: 0 0px 10px #fefefe;
     padding: 10px;
@@ -66,7 +66,7 @@ header {
 }
 
 .dropdown-item:hover {
-    background: #f19b44;
+    background: #8ef779de;
     cursor: pointer;
 }
 
