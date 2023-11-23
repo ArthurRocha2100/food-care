@@ -5,6 +5,13 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.bg-primary {
+  background-color: rgb(43, 43, 255);
+}
+
+.text-light {
+  color: #fafafa;
+}
 
 main {
     width: 100%;
@@ -18,7 +25,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #FA7F08;
+    background: #74c963de;
     background-size: cover;
 }
 
@@ -27,7 +34,6 @@ button {
 }
 
 .container {
-    background: orange;
     border-radius: 10px;
     height: 80%;
     flex: 1;
@@ -49,7 +55,7 @@ button {
 }
 
 #btnVoltar {
-  background-color: rgb(57, 57, 226);
+  background-color: rgb(6, 6, 151);
   border: none;
   border-radius: 5px;
   color: #fefefe;
@@ -60,7 +66,7 @@ button {
 
 
 #new {
-  background-color: rgb(9, 215, 57);
+  background-color: rgb(8, 158, 43);
   border: none;
   border-radius: 5px;
   color: #fefefe;
@@ -93,9 +99,6 @@ table {
   word-break: break-all;
 }
 
-thead {
-  background-color: #FA7F08;
-}
 
 tr {
   border-bottom: 1px solid #000 !important;
@@ -139,6 +142,7 @@ tbody tr td.acao {
   justify-content: center;
 }
 
+
 .modal {
   display: flex;
   flex-direction: column;
@@ -147,6 +151,7 @@ tbody tr td.acao {
   background-color: white;
   border-radius: 10px;
   width: 50%;
+  margin: 0 auto;
 }
 
 
@@ -175,7 +180,7 @@ tbody tr td.acao {
 }
 
 .modal button {
-  background-color: rgb(57, 57, 226);
+  background-color: rgb(6, 6, 151);
   border: none;
   border-radius: 20px; 
   color: #fefefe;

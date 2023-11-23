@@ -7,7 +7,6 @@ const botaoSalvar = document.getElementById('btnSalvar');
 const botaoIncluit = document.getElementById('new');
 const modal = document.querySelector('.modal-container');
 const tbody = document.querySelector('tbody');
-const establishmentImg = document.querySelector('m-establishment-img');
 
 const API_ID = 'HH3Vf5HoRpqmZWOAKeiOFFogqRF9ChBf3A1t8ueU'
 const API_JS_KEY = 'UtzG0cKaLjZD7zVajXV60J5aiXMS0xx7EQRBiofg'
@@ -90,13 +89,13 @@ async function establishmentList() {
             let tr = document.createElement('tr');
  
             tr.innerHTML = `
-            <td>${item.get('establishment')}</td>
-            <td>${item.get('publicPlace')}</td>
+            <td class="text-light">${item.get('establishment')}</td>
+            <td class="text-light">${item.get('publicPlace')}</td>
             <td class="acao">
-              <button onclick="editItem(${index})"><i class='bx bx-edit' ></i></button>
+              <button class="text-light" onclick="editItem(${index})"><i class='bx bx-edit' ></i></button>
             </td>
             <td class="acao">
-              <button onclick="deleteItem(${index})"><i class='bx bx-trash'></i></button>
+              <button class="text-light" onclick="deleteItem(${index})"><i class='bx bx-trash'></i></button>
             </td>
             `
             tbody.appendChild(tr);
