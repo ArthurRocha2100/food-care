@@ -1,0 +1,14 @@
+#contato {
+    background-color: #fefefe
+}
+
+.contato-container{
+    background-color: #fefefe;
+    border-radius: 50px 5px 50px 5px;
+    text-align: center;
+    flex: 1;
+}
+
+.contato-container-paragraph {
+    text-align: justify;
+}
